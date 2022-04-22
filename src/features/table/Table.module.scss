@@ -1,0 +1,24 @@
+.base {
+    margin: 1rem;
+}
+.search {
+    float: left;
+    margin-bottom: 1rem;
+}
+.deleteButton {
+    float: left;
+    margin-bottom: 1rem;
+}
+.actionIcon {
+    cursor: pointer;
+}
+/* .userTable.ant-table-wrapper .ant-table-tbody > tr.ant-table-row-selected > td {
+    background-color: #f0f0f0;
+} */
+.userTable {
+    :global {
+        .ant-table-tbody > tr.ant-table-row-selected > td {
+            background-color: #f0f0f0;
+        }
+ }
+}
